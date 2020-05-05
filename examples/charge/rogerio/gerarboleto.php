@@ -1,5 +1,5 @@
 <?php
-   require __DIR__ . '/../../vendor/autoload.php'; // caminho relacionado a SDK
+   require __DIR__ . '/../../../vendor/autoload.php'; // caminho relacionado a SDK
 
 	//require 'gerencianet/composer/vendor/autoload.php'; //Gerencianet
    use Gerencianet\Exception\GerencianetException;

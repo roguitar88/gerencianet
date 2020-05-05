@@ -1,10 +1,7 @@
 <?php
 include "changeurl.inc.php";
 
-include "adminkey.inc.php";
-include "delimitarminutos.inc.php";
-
-if(isset($_POST['gerarboleto']){
+if(isset($_POST['gerarboleto'])){
 	require "examples/charge/rogerio/gerarboleto.php";
 	//require "examples/charge/rogerio/retornardados.php";
 }elseif(isset($_POST['cancelarboleto'])){

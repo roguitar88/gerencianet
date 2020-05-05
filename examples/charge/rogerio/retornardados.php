@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__.'/../../vendor/autoload.php'; // caminho relacionado a SDK
+require __DIR__.'/../../../vendor/autoload.php'; // caminho relacionado a SDK
 
 use Gerencianet\Exception\GerencianetException;
 use Gerencianet\Gerencianet;
