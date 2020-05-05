@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Client.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132305329212119941" remote="132312597370000000" Dst="0" />
+<file name="ClientInterface.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132305329212599628" remote="132312597380000000" Dst="0" />
+<file name="functions.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132305329214758133" remote="132312597620000000" Dst="0" />
+<file name="functions_include.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132305329214779200" remote="132312597630000000" Dst="0" />
+<file name="HandlerStack.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132305329213775374" remote="132312597800000000" Dst="0" />
+<file name="MessageFormatter.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132305329213805344" remote="132312597810000000" Dst="0" />
+<file name="Middleware.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132305329213825328" remote="132312597820000000" Dst="0" />
+<file name="Pool.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132305329214255223" remote="132312597830000000" Dst="0" />
+<file name="PrepareBodyMiddleware.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132305329214558445" remote="132312597840000000" Dst="0" />
+<file name="RedirectMiddleware.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132305329214578407" remote="132312597840000000" Dst="0" />
+<file name="RequestOptions.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132305329214608399" remote="132312597850000000" Dst="0" />
+<file name="RetryMiddleware.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132305329214628397" remote="132312597860000000" Dst="0" />
+<file name="TransferStats.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132305329214648371" remote="132312597870000000" Dst="0" />
+<file name="UriTemplate.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132305329214668356" remote="132312597880000000" Dst="0" />
+</dwsync>
