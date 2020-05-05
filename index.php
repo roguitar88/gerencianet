@@ -11,6 +11,7 @@
 		<br/>
 		<p>Este é apenas um DEMO de geração de boletos via Gerencianet implementado pelo desenvolvedor Rogério Soares</p>
 		<p>link do GitHub: https://github.com/roguitar88/gerencianet</p> 
+		<p>link da Gerencianet: https://gerencianet.com.br</p>	    	
 		<p>link do Whatsapp: https://wa.me/5562982134287</p>
 		<br/>
 		<p>
