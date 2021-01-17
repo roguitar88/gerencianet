@@ -9,14 +9,14 @@
 
     $options = [
         'client_id' => $clientId,   //ATENÇÃO: É AQUI QUE VAI O SEU CLIENT ID
-        'client_secret' => $clientId,   //ATENÇÃO: É AQUI QUE VAI O SEU CLIENT SECRET
+        'client_secret' => $clientSecret,   //ATENÇÃO: É AQUI QUE VAI O SEU CLIENT SECRET
         'sandbox' => $sandbox_boolean // altere conforme o ambiente (true = desenvolvimento e false = producao)
     ];
 
    $item_1 = [
        'name' => 'Plano Mensal Orangeade X', // nome do item, produto ou serviço
        'amount' => 1, // quantidade
-       'value' => '1000' // valor (1000 = R$ 10,00) (Obs: É possível a criação de itens com valores negativos. Porém, o valor total da fatura deve ser superior ao valor mínimo para geração de transações.)
+       'value' => 1000 // valor (1000 = R$ 10,00) (Obs: É possível a criação de itens com valores negativos. Porém, o valor total da fatura deve ser superior ao valor mínimo para geração de transações.)
    ];
    $items = [
        $item_1
@@ -39,13 +39,13 @@
    $conditional_discount = [ // configurações de desconto condicional
        'type' => 'percentage', // seleção do tipo de desconto
        'value' => 500, // porcentagem de desconto
-       'until_date' => '2021-04-22' // data máxima para aplicação do desconto
+       'until_date' => '2021-01-20' // data máxima para aplicação do desconto
    ];
    $bankingBillet = [
-       'expire_at' => '2020-04-24', // data de vencimento do titulo
-       'message' => 'Acesse a painel do portal para saber sobre valores', // mensagem a ser exibida no boleto
+       'expire_at' => '2021-01-23', // data de vencimento do titulo
+       'message' => 'Boleto gerado pela Gerencianet', // mensagem a ser exibida no boleto
        'customer' => $customer,
-       'discount' =>$discount,
+       'discount' => $discount,
        'conditional_discount' => $conditional_discount
    ];
    $payment = [
