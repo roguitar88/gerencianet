@@ -7,7 +7,7 @@ Apenas peguei a pasta em gerencianet/gerencianet/vendor/gerencianet/gerencianet-
 
 Na referida pasta criei uma nova chamada 'rogerio/' na qual adaptei alguns scripts no que tange a geração do boleto, cancelamento, alteração de vencimento, retorno de dados do boleto, etc. 
 
-Está tudo pronto. Você só precisa ir em gerencianet/examples/charge/credenciais.php e colocar as suas chaves Client_ID e Client_Secret. Só observar que tem as chaves do ambiente de produção e do ambiente de desenvolvimento. Você vai trabalhar com as chaves do ambiente de desenvolvimento para fazer os testes, evidentemente. Ao fazer os teste, esqueça também de alterar/atualizar as datas (data de vencimento e data de desconto).
+Está tudo pronto. Você só precisa ir em gerencianet/examples/charge/credenciais.php e colocar as suas chaves Client_ID e Client_Secret. Só observar que tem as chaves do ambiente de produção e do ambiente de desenvolvimento. Você vai trabalhar com as chaves do ambiente de desenvolvimento para fazer os testes, evidentemente. Ao fazer os teste, não esqueça também de alterar/atualizar as datas (data de vencimento e data de desconto).
 
 Além disso, você vai ver que tem um outro script importante: gerencianet/controledeboletos.php. No arquivo index.php, você vai ver que tem um botão (formulário) cuja ação direciona justamente para esse script, onde é possível 'gerar boleto', 'cancelar', 'alterar vencimento', 'retornar dados', etc. Por isso repito, está tudo pronto. Você só vai adaptar de acordo com as suas variáveis e dados constantes no seu bd.
 
