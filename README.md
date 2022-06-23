@@ -11,7 +11,7 @@ Está tudo pronto. Você só precisa ir em gerencianet/examples/charge/credencia
 
 Além disso, você vai ver que tem um outro script importante: gerencianet/controledeboletos.php. No arquivo index.php, você vai ver que tem um botão (formulário) cuja ação direciona justamente para esse script, onde é possível 'gerar boleto', 'cancelar', 'alterar vencimento', 'retornar dados', etc. Por isso repito, está tudo pronto. Você só vai adaptar de acordo com as suas variáveis e dados constantes no seu bd.
 
-Este é um exemplo de resultado que você verá na tela:
+Este é um exemplo de retorno que você verá na tela:
 
 ```
 Array
