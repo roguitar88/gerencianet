@@ -39,10 +39,10 @@
    $conditional_discount = [ // configurações de desconto condicional
        'type' => 'percentage', // seleção do tipo de desconto
        'value' => 500, // porcentagem de desconto
-       'until_date' => '2021-01-20' // data máxima para aplicação do desconto
+       'until_date' => '2022-06-30' // data máxima para aplicação do desconto
    ];
    $bankingBillet = [
-       'expire_at' => '2021-01-23', // data de vencimento do titulo
+       'expire_at' => '2022-07-23', // data de vencimento do titulo
        'message' => 'Boleto gerado pela Gerencianet', // mensagem a ser exibida no boleto
        'customer' => $customer,
        'discount' => $discount,
